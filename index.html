@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container   h-100 "> 
+     <div class="row align-items-center h-100"> 
+         <div class="col-sm-6 mx-auto my-5 "> 
+        <div class="card h-100   justify-content-center" style="width:25rem;">
+      <div class="card-header">
+        <h1><center> TIME TABLE</center></h1>
+    </div>
+        <div class="card-body">
+    <!-- <form action=""> -->
+        <!-- Department -->
+        <br>
+    <label for="dept">Enter Department</label>
+    <input type="text" name="dept" id="dept" placeholder="19-UCA-035">
+    <br> 
+    <br>
+    <!-- section -->
+    <label for="section">Select Section &nbsp </label>
+    <input type="radio" name="section" id="sec_A" value="_A" > A
+    <input type="radio" name="section" id="sec_B" value="_B"> B
+    <input type="radio" name="section" id="sec_C" value="_C"> C
+    <br>
+</div>
+<div class="card-footer text-center">
+    <input type="submit" class="btn btn-primary" onclick="displayName()" value="Submit">
+    
+</div>
+
+<!-- card div -->
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- img to display -->
+<!-- <br> <br> -->
+<div class="container-fluid "> 
+    <div class="row align-items-center h-80"> 
+        <div class="col-sm-6 mx-auto mb-4 "> 
+       <div class="card h-100   justify-content-center" style="width:0rem;">
+
+        <!-- Card body -->
+        <div class="card-body mx-0 px-0 py-0">
+        <!-- image div -->
+    <div id="imagediv" class="parent" style="display: none;" >
+
+    <!-- image if not found (default Image) -->
+    <img src="No_results.jpg" class="image1"  alt=" "  width=400" height="400">
+    <!-- Image if found -->
+    <img src="" id="myimg" class="image2" alt=" " width="600" height="400">
+    
+</div>
+</div>
+
+<!-- imag card div -->
+</div>
+</div>
+</div>
+</div>
+<!-- </form> -->
+</body>
+<script src="script.js"></script>
+<!-- <script src="/Bootstrap/bootstrap-4.6.0-dist/js/jquery.min.js"></script>
+<script src="/Bootstrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script> -->
+</html>
