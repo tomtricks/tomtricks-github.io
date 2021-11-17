@@ -11,7 +11,7 @@ const exten=".png";
 
 function displayName(){
     deptname = ((document.getElementById("dept").value).substring(0,6)).toUpperCase();
-   
+    // console.log(deptname);
     // section=document.getElementsByName("section").value;
     const rbs=document.querySelectorAll('input[name="section"]');
 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day order</title>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="/Bootstrap/bootstrap-4.6.0-dist/js/jquery.min.js"></script>
+    <script src="/Bootstrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<!-- nav -->
+<nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
+
+    <!-- Brand -->
+<a href="" class="navbar-brand">Day Order</a>
+
+<!-- Toggle/collapse button -->
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon">
+
+    </span>
+</button>
+
+
+
+<!-- links -->
+    <div class="collapse  navbar-collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+            <a href="../index.html" class="nav-link">Time Table</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Day Order</a>
+        </li>    
+    <li class="nav-item">
+        <a href="#" class="nav-link">About</a>
+    </li>
+</ul>
+
+</div>
+
+</nav>
+
+
+<!-- Box -->
+    <div class="container   h-100 "> 
+        <div class="row align-items-center h-100"> 
+            <div class="col-sm-6 mx-auto my-5 "> 
+           <div class="card h-100   justify-content-center" style="width:25rem;">
+         <div class="card-header">
+           <h1><center> DAY ORDER</center></h1>
+       </div>
+           <div class="card-body">
+       <!-- <form action=""> -->
+           <!-- Department -->
+           <br>
+       <label for="dept">Enter Date</label>
+       <br>
+       <input type="text" name="udate" id="udate" placeholder="11/1/2021" >
+       <br> 
+       <small id="mssg" class="text-muted">the date format should only be in (mm/dd/yyyy) </small>
+       <br>
+       <br>
+
+      
+              
+       <label for="" id="do"></label>
+       <label for="" id="undef"></label>
+       <label for="error" id="no_val"></label>
+   </div>
+   
+   
+   
+   <div class="card-footer text-center">
+       <input type="submit" class="btn btn-primary" onclick="dayorder()" value="Submit">
+       
+   </div>
+   
+   <!-- card div -->
+   </div>
+   </div>
+   </div>
+   </div>
+</body>
+<script src="dayOrder.js"></script>
+</html>
