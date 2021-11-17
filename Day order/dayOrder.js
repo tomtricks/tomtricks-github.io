@@ -33,7 +33,11 @@ if(results.length==0){
     document.getElementById("no_val").innerHTML="Invalid Date Format";
         console.log("Wrong Date Format");
         document.getElementById("undef").style.display="none";
-
+    // reload
+setTimeout(function (){
+    location.reload(1);
+},5000);
+  
   
 }
 // when the result is (*) the boolean value change and dispaly the message accordingly
