@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day order</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.min.css">
     <script src="/Bootstrap/bootstrap-4.6.0-dist/js/jquery.min.js"></script>
     <script src="/Bootstrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
@@ -51,17 +52,17 @@
 
 
 <!-- Box -->
-    <div class="container   h-100 "> 
+    <!-- <div class="container   h-100 "> 
         <div class="row align-items-center h-100"> 
             <div class="col-sm-6 mx-auto my-5 "> 
-           <div class="card h-100   justify-content-center  justify-content-center mx-auto shadow border bg-white p-1 rounded">
+           <div class="card h-100   justify-content-center mx-auto shadow border bg-white p-1 rounded" >
          <div class="card-header">
            <h1><center> DAY ORDER</center></h1>
        </div>
-           <div class="card-body">
+           <div class="card-body"> -->
        <!-- <form action=""> -->
            <!-- Department -->
-           <br>
+           <!-- <br>
        <label for="dept">Enter Date</label>
        <br>
        <input type="text" name="udate" id="udate" placeholder="11/01/2022" >
@@ -69,34 +70,56 @@
        <small id="mssg" class="text-muted">the date format should only be in (mm/dd/yyyy) </small>
        <br>
        <br>
-
-      
-              
+ -->
+       <!--  -->
+       <!-- <input type="date" id="day_o" name="day_o"> -->
+      <!--  -->
+<!--               
        <label for="" id="do"></label>
        <label for="" id="undef"></label>
        <label for="error" id="no_val"></label>
    </div>
    
-   
-   
-   <div class="card-footer text-center " style="background-color: #ffffff;">
+    -->
+<!--    
+   <div class="card-footer text-center">
        <input type="submit" class="btn btn-primary" onclick="dayorder()" value="Submit">
        
-   </div>
+   </div> -->
    
    <!-- card div -->
+   <!-- </div>
    </div>
    </div>
-   </div>
-   </div>
-    <br><br>
-<!-- footer -->
+   </div> -->
+
+
+<!-- Img dayorder -->
+<br><br>
 <div class="container">
-  <div class="row justify-content-center">
-      <!-- col- elements here -->
-    <footer class="text-secondary">&copy; 2022 LT<sup>2</sup>, Inc. All rights reserved </footer>
-  </div>
+    <div id="imagediv" class="parent img-fluid shadow border bg-white p-1 rounded" >
+    <!-- Content here -->
+    <img src="" id="dayimage" class="image1 img-fluid w-100" width="100%" alt="">
+    <!-- <img src="No_results.jpg" class="image1 img-fluid w-100" width="100%"  alt=" "  > -->
+    <!-- Image if found -->
+    
+    <!-- <img src="" id="myimg" class="image2 img-fluid w-100" alt=" " > -->
 </div>
+</div>
+<!--  -->
+
+
+
+
+   <br><br>
+   <!-- footer -->
+   <div class="container">
+     <div class="row justify-content-center">
+         <!-- col- elements here -->
+       <footer>&copy; 2022 LTT<sup>2</sup>, Inc. All rights reserved </footer>
+     </div>
+   </div>
+   
 
 </body>
 <script src="dayOrder.js"></script>
