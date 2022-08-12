@@ -2,7 +2,7 @@
 var staticUrl="https://script.google.com/macros/s/AKfycbxX2SfOe0TGfgt27EsPULqhDUHQqYTr5rs6YW2YBnjCBUU4ha6X85aT0CJm0JBB3Wrf/exec"
 
 var data=$.getJSON(staticUrl, function(data){
-
+    
     console.log("Hello");
 
     var today=new Date();
