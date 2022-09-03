@@ -27,7 +27,8 @@ var data=$.getJSON(staticUrl, function(data){
     }
     // console.log(results[0]);
 
-    document.getElementById("do").innerHTML=results[0];
+//     document.getElementById("do").innerHTML=results[0];
+    document.getElementById("do").innerHTML=Day 4;
 
 
 
