@@ -4,6 +4,7 @@
 Loyola Time Table (LTT) app is used to check the Day order, Time table respective to departments for students and Professors , Attendance, Events in the month and many more in a single application with ease of use interface.
 
 Check out the app by following the below link
+
 https://downloadltt.netlify.app/
 
 ## Tech Stack
